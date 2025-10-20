@@ -1,0 +1,57 @@
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#game {
+    width: 550px;
+    height: 500px;
+    margin: 10vh auto;
+    border: 1px solid #555;
+    background-color: #f0f0f0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gameData {
+    width: 200px;
+    height: 400px;
+
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dataBlock {
+    font-size: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#gameScreen {
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid #555;
+}
+
+#score {
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid #555;
+}
+
+#nextBlock {
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border: 2px solid #555;
+}
